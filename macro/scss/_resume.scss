@@ -1,0 +1,48 @@
+
+#resume {
+    padding-top: 330px;
+
+    .container {
+        h2 {
+            @include header-title();
+        }
+
+        .resume-nav {
+            ul {
+                padding-top: 50px;
+                // display: flex;
+                // justify-content: space-evenly;
+
+                li {
+                    display: inline-block;
+                    padding: 0 15px;
+                    text-align: center;
+                    margin-right: 10px;
+
+                    a {
+                        color: #000;
+                        transition: all .5s;
+
+                        &:hover {
+                            color: #6E41FE;
+                        }
+                    }
+                }
+            }
+        }
+
+        .resume-card {
+            padding-top: 50px;
+
+            img {
+                width: 400px;
+                padding: 15px 15px;
+                transition: all .4s;
+
+                &:hover {
+                    transform: scale(1.1) rotate(-5deg);
+                }
+            }
+        }
+    }
+}

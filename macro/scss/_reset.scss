@@ -1,0 +1,40 @@
+@font-face {
+    font-family: Vazir;
+    src: url(../fonts/Vazir-Medium.eot) format("eot"), url(../fonts/Vazir-Medium.woff) format("woff"), url(../fonts/Vazir-Medium.woff2) format("woff2");
+    font-style: "normal";
+}
+
+* {
+    font-family: Vazir;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Vazir;
+    max-width: 100%;
+    overflow-x: hidden !important;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.active {
+    color: #6E41FE;
+    text-decoration: dashed;
+}
+
+.tac {
+    text-align: center;
+}

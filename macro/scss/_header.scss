@@ -1,0 +1,43 @@
+
+#header {
+    padding-top: 150px;
+    height: 630px;
+    background-color: #FAF9FF;
+
+    .container {
+
+        .row {
+
+            h1 {
+                position: relative;
+                top: 12px;
+            }
+
+            h6 {
+                margin-right: 3px;
+            }
+
+            p {
+                color: #797979;
+                margin-top: 3rem;
+            }
+
+            .header-btn {
+                @include btn();
+
+                &:hover {
+                    @include btn-hover();
+                }
+
+                a {
+                    color: #797979;
+
+                }
+            }
+
+            img {
+                width: 370px;
+            }
+        }
+    }
+}

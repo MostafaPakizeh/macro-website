@@ -1,0 +1,116 @@
+#news {
+    padding-top: 140px;
+
+    .container {
+        .our-news {
+            .news-card {
+                display: flex;
+                justify-content: space-between;
+
+                .news-card-1 {
+                    @include news-border();
+                    height: 500px;
+                    width: 350px;
+
+                    img {
+                        width: 100%;
+                        transition: all .6s;
+
+                        &:hover {
+                            @include img-hover();
+                        }
+                    }
+
+                    h4 {
+                        padding-top: 32px;
+                        padding-right: 10px;
+                    }
+
+                    h6 {
+                        padding-top: 8px;
+                        padding-right: 10px;
+                        color: #797979;
+                    }
+
+                    p {
+                        padding-top: 6px;
+                        padding-right: 10px;
+                        font-size: 14px;
+                        line-height: 2;
+                        color: #797979;
+                    }
+                }
+
+                .news-card-2 {
+                    @include news-border();
+                    height: 500px;
+                    width: 350px;
+
+
+                    img {
+                        width: 100%;
+                        transition: all .6s;
+
+                        &:hover {
+                            @include img-hover();
+                        }
+                    }
+
+                    h4 {
+                        padding-top: 32px;
+                        padding-right: 10px;
+                    }
+
+                    h6 {
+                        padding-top: 8px;
+                        padding-right: 10px;
+                        color: #797979;
+                    }
+
+                    p {
+                        padding-top: 6px;
+                        padding-right: 10px;
+                        font-size: 14px;
+                        line-height: 2;
+                        color: #797979;
+                    }
+                }
+
+                .news-card-3 {
+                    @include news-border();
+                    height: 500px;
+                    width: 350px;
+
+
+                    img {
+                        width: 100%;
+                        transition: all .6s;
+
+                        &:hover {
+                            @include img-hover();
+                        }
+                    }
+
+                    h4 {
+                        padding-top: 32px;
+                        padding-right: 10px;
+                    }
+
+                    h6 {
+                        padding-top: 8px;
+                        padding-right: 10px;
+                        color: #797979;
+                    }
+
+                    p {
+                        padding-top: 6px;
+                        padding-right: 10px;
+                        font-size: 14px;
+                        line-height: 2;
+                        color: #797979;
+                    }
+                }
+            }
+        }
+    }
+}

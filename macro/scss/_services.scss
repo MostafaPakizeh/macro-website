@@ -1,0 +1,41 @@
+#services {
+    // padding-top: 322px;
+    height: 580px;
+    background-color: #FAF9FF;
+    margin-top: 160px;
+
+    .container {
+        h1 {
+            padding-top: 70px;
+        }
+
+        .services-card {
+            display: grid;
+            grid-gap: 60px;
+            grid-template-columns: auto auto;
+            margin-top: 50px;
+            margin-right: 55px;
+
+            .cards {
+                border: 1px solid #ddd;
+                border-radius: 25px;
+                width: 525px;
+                height: 150px;
+                text-align: center;
+                line-height: 3;
+                transition: all .5s;
+
+                &:hover {
+                    border-color: #6E41FE;
+                    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+                    background-color: #6E41FE;
+                    color: #fff;
+                }
+
+                h4 {
+                    padding-top: 35px;
+                }
+            }
+        }
+    }
+}

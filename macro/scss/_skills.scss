@@ -1,0 +1,31 @@
+
+#skills {
+    padding-top: 100px;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+
+        img {
+            width: 500px;
+            // margin-right: 20px;
+        }
+
+        p {
+            text-align: justify;
+            color: #cecece;
+            font-size: 14px;
+            padding-top: 20px;
+        }
+
+        .title {
+            position: relative;
+            top: 24px;
+        }
+
+        .number {
+            position: relative;
+            right: 93%;
+        }
+    }
+}
