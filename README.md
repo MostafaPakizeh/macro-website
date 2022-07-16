@@ -1,2 +1,2 @@
 # my-first-website-macro-
-this is my first try on building websites... (not responsive Unfortunately!)
+My first experience to create a template with HTML , CSS , Sass ( Not Respponsive )
